@@ -1,0 +1,71 @@
+/* src/App.css */
+.App {
+  height: 50rem;
+  text-align: center;
+  background-color: darkslategrey;
+  color: antiquewhite;
+  font-family: cursive;
+  border: solid 5px darkslategray;
+
+
+  
+
+
+}
+p{
+  color: crimson;
+}
+
+.dataFetched {
+  width: 50%; /* or any specific width */
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+
+}
+
+form {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: solid 5px darkcyan;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: darkcyan;
+  color: #f0f0f0;
+  border: solid 5px darkcyan;
+  border-radius: 5px;
+  margin: 2px;
+}
+button:hover{
+  background-color: darkgreen;
+  color: #f0f0f0;
+}
+
+h3 {
+  margin-top: 20px;
+ /* background-color: darkcyan;*/
+  /*border: black 0.5rem solid;*/
+  border-radius: 1rem;
+  color: darkcyan;
+}
+h1{
+  font-family: cursive;
+  font-size: 4rem;
+}
+h2{
+  font-family: cursive;
+  font-size: 2rem;
+  color: darkolivegreen;
+  text-decoration: underline;
+}
+
