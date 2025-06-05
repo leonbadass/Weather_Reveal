@@ -6,7 +6,7 @@ A responsive weather application that displays real-time weather data for any ci
 
 ## 🚀 Live Demo
 
-🔗 [View Live App](https://theweatherrevealapp.netlify.app/)
+🔗 [View Live App](https://my-weather-reveal-app.netlify.app/)
 
 ---
 
