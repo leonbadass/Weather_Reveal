@@ -1,54 +1,110 @@
-# React + TypeScript + Vite
+# 🌦️ Weather Reveal (React + TypeScript + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive weather application that displays real-time weather data for any city worldwide. Built with **React**, **TypeScript**, and powered by **Vite**, it features a modern UI and seamless user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [View Live App](https://theweatherrevealapp.netlify.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📸 Preview
+
+![screenshot](./public/weather-preview.png)
+
+---
+
+## 🔧 Features
+
+- ✅ Search and display weather for any city  
+- ✅ View current temperature, conditions, humidity, and more  
+- ✅ Fetches real-time data from OpenWeatherMap API  
+- ✅ Modern UI with responsive layout  
+- ✅ Fast build and dev experience using Vite  
+- ✅ Built with reusable React components  
+- ✅ Typed codebase with TypeScript for reliability  
+
+---
+
+## 🛠 Tech Stack
+
+| Layer        | Tech                          |
+|--------------|-------------------------------|
+| Frontend     | React + TypeScript            |
+| Styling      | Tailwind css                  |
+| Build Tool   | Vite                          |
+| API          | OpenWeatherMap API            |
+| Deployment   | Netlify                       |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the app locally.
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/leonbadass/Weather_Reveal.git
+cd Weather_Reveal
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**2. Install Dependencies**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+``` bash
+npm install
 ```
+
+**2. Start the development server**
+
+```bash
+npm run dev
+```
+
+App will be available at:
+🔗 http://localhost:5173 (Vite)
+
+## 🧠 What I Learned
+
+**Working on this project helped me:**
+-Use React with TypeScript for a better dev experience
+-Integrate third-party APIs (OpenWeatherMap)
+-Organize a scalable component structure
+-Leverage Vite for a fast development workflow
+
+## 📌 Planned Improvements
+
+- [ ] Add unit testing with Vitest
+- [ ] Add autocomplete for city search
+- [ ] Allow user to toggle between Celsius and Fahrenheit
+- [ ] Improve mobile responsiveness
+
+---
+
+## 🧪 Testing
+
+_(To be added in future updates)_
+
+
+- ✅ Manual testing for API integration
+- 🔜 Plans to integrate Vitest or Jest for unit tests
+
+ 
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+Feel free to fork, use, or modify it for your own learning.
+
+---
+
+## 👤 Author
+
+Godwin Azuka |
+📫 [GitHub](https://github.com/leonbadass)    |
+💼 [LinkedIn](https://www.linkedin.com/in/godwin-azuka-b0176a179/)
+
+
